@@ -1,20 +1,53 @@
-﻿# Dependencies
-node_modules/
+# ======================================================
+# ✅ Full-stack Project .gitignore
+# (Frontend + Backend + Dashboard)
+# ======================================================
 
-# Environment files
+# ------------------------------
+# 🧠 Environment files
+# ------------------------------
 .env
+frontend/.env
+backend/.env
+dashboard/.env
 
+# ------------------------------
+# 📦 Node dependencies
+# ------------------------------
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+dashboard/node_modules/
 
-# Build and cache
-/build
-/dist
-/.pnp
-.pnp.js
+# ------------------------------
+# 🏗️ Build and cache folders
+# ------------------------------
+build/
+dist/
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+dashboard/build/
+dashboard/dist/
+
+# ------------------------------
+# 🧪 Test coverage
+# ------------------------------
 coverage/
 
-# Misc
+# ------------------------------
+# ⚙️ System and IDE files
+# ------------------------------
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ------------------------------
+# 🧾 Logs
+# ------------------------------
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+pnpm-debug.log*
